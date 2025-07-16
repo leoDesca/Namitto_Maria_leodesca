@@ -29,7 +29,7 @@ print(f"Current time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 while True:
     current_time = datetime.now().strftime("%H:%M")
     
-    if current_time == "00:24":  # Post at 9 AM daily
+    if current_time == "09:00":  # Post at 9 AM daily
         print("Preparing daily post...")
         
         # Create message content
